@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,500&family=Caveat&display=swap');
+
+hr{
+    margin-top:2rem;
+}
+
+body{
+    font-family: 'Archivo', sans-serif;
+    
+}
+
+.container-fluid{
+    padding:0rem 1rem;
+}
+
+.container-center{
+    max-width:600px;
+    margin:auto;
+}
