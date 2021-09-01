@@ -4,11 +4,17 @@ hr{
     margin-top:2rem;
 }
 
-body{
-    font-family: 'Archivo', sans-serif;
-    
+:root{
+    --primary-color: rgb(247, 204, 14);
+    --theme-bg: #21CEEF;
 }
 
+body{
+    font-family: 'Archivo', sans-serif;
+    background-color: var(--theme-bg);
+    
+}
+/* @container */
 .container-fluid{
     padding:0rem 1rem;
 }
@@ -16,4 +22,80 @@ body{
 .container-center{
     max-width:600px;
     margin:auto;
+}
+
+/* @link */
+.link{
+    text-decoration: none;
+    
+    padding: 0.3rem 1rem;
+    border-radius:.5rem;
+    color:whitesmoke;
+    border:solid;
+}
+
+.link-primary{
+    background-color:var(--primary-color);    
+}
+
+/* @list --&-- @navigation*/
+
+.list{
+    list-style:none;
+    /* color:whitesmoke; */
+}
+
+.list-unordered{
+    display:inline;
+    padding: 0rem .5rem;
+}
+
+.link.l1{
+    background-color:yellowgreen;
+}
+
+
+/* @header */
+
+.head{
+    max-width:500px;
+    margin: auto;
+    display:block;
+    border-radius: 17rem;
+}
+
+/* @section */
+
+.section{
+    padding:1rem 0.5rem;
+    /* max-width:600px;
+    margin:auto; 
+    border-radius: 1rem; */
+    border:solid;
+}
+
+
+.white-section{
+    background-color: white;
+}
+
+.blue-section{
+    background-color:rgb(56, 56, 138);
+    /* color:white; */
+}
+
+/* @footer */
+
+.footer{
+    text-align: right;
+    margin: 1.5rem;
+}
+
+h4{
+    text-align:center;
+    color:green;
+}
+
+h2{
+    
 }
