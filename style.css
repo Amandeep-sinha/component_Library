@@ -13,6 +13,7 @@ body{
     font-family: 'Archivo', sans-serif;
     background-color: var(--theme-bg);
     margin:0px;
+    margin-left: 0px;
 
     
 }
@@ -49,6 +50,7 @@ body{
 
 .list-unordered{
     display:inline;
+    list-style-type: none;
     padding: 0rem 0.5rem;
 }
 
@@ -68,6 +70,17 @@ body{
     margin-bottom: 50px;
 }
 
+.resize{
+    max-width:430px;
+    margin: auto;
+    display:block;
+    /* border-radius: 17rem; */
+    margin-top: 30px;
+    margin-bottom: 3px;
+}
+
+
+
 /* @section */
 
 .section{
@@ -75,13 +88,18 @@ body{
     max-width:600px;
     margin:auto; 
     margin-bottom: 35px;
-    border-radius: 1rem; */
+    border-radius: 1rem; 
     border:solid;
+    color:grey;
+    border-color:maroon;
+    border-width: 4px;
+        
 }
 
 
 .white-section{
     background-color: white;
+    
 }
 
 .blue-section{
@@ -100,9 +118,8 @@ body{
  .bgf{
     background-color: var(--primary-color);
     padding: .5rem  .5rem;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    display:block;
+    
+    /* display:block; */
     
 } 
 
@@ -113,4 +130,29 @@ h4{
 
 h2{
 
+}
+
+.br{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.l2{
+    border-color: maroon;
+}
+
+.lnew{
+    text-decoration: none;
+    padding: 0rem 1rem;
+    border-radius:.5rem;
+    /* color:whitesmoke; */
+    border:solid;
+    border-color: chartreuse;
+}
+
+
+.active{
+    font-weight: bold;
+    color:blue;
 }
