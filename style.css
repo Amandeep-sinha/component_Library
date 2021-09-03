@@ -85,7 +85,7 @@ body{
 
 .section{
     padding:1rem 0.5rem;
-    max-width:600px;
+    max-width:650px;
     margin:auto; 
     margin-bottom: 35px;
     border-radius: 1rem; 
@@ -156,3 +156,4 @@ h2{
     font-weight: bold;
     color:blue;
 }
+
