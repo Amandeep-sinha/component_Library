@@ -79,7 +79,7 @@ body{
 }
 
 .resize{
-    max-width:350px;
+    max-width:300px;
     margin: auto;
     display:block;
     /* border-radius: 17rem; */
