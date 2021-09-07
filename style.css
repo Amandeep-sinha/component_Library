@@ -49,6 +49,7 @@ body{
 }
 
 .list-unordered{
+    display: block;
     display:inline;
     list-style-type: none;
     padding: 0rem 0.5rem;
